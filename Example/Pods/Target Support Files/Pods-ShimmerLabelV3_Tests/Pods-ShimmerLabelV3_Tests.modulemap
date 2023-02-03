@@ -1,0 +1,6 @@
+framework module Pods_ShimmerLabelV3_Tests {
+  umbrella header "Pods-ShimmerLabelV3_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
