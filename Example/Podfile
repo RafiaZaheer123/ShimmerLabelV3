@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '10.0'
+
+target 'ShimmerLabelV3_Example' do
+  pod 'ShimmerLabelV3', :path => '../'
+
+  target 'ShimmerLabelV3_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
