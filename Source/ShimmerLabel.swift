@@ -8,7 +8,7 @@
 import UIKit
 
 public class ShimmerLabel: UILabel {
-    public var titleText : String?
+    public var titleTextLabel : String?
     // MARK: - Life cycle
     public override func layoutSubviews() {
         super.layoutSubviews()
