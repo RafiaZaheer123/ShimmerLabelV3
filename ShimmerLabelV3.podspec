@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: Add long description of the pod here.
+'TODO: Add long description of the pod here.'
                        DESC
 
   s.homepage         = 'https://github.com/RafiaZaheer123/ShimmerLabelV3'
@@ -28,9 +28,13 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/RafiaZaheer123/ShimmerLabelV3.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '12.0'
 
-  s.source_files = 'ShimmerLabelV3/Classes/**/*'
+  s.source_files = 'Source/**/*.swift'
+  s.swift_version = '5.0'
+  s.platforms = {
+  "ios": "12.0"
+   }
   
   # s.resource_bundles = {
   #   'ShimmerLabelV3' => ['ShimmerLabelV3/Assets/*.png']
